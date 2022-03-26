@@ -401,6 +401,41 @@ subheader {
     animation-delay: calc(5 * var(--stagger-delay));
 }
 
+@media only screen and (max-width:300px){   
+           .animated-grid {
+            height: 85vh;
+            display: grid;
+            gap: 1rem;
+            /* explicit grid */
+            grid-template-areas: 'a a a a a a' 'b b b b b b' 'c c c c c c' 'd d d d d d' 'e e e e e e';
+            grid-template-rows: repeat(5, 25%);
+            grid-template-columns: 240px auto auto 240px;
+        }
+        }
+        @media only screen and (min-width:300px) and (max-width:500px){    
+            .animated-grid {
+            height: 85vh;
+            display: grid;
+            gap: 1rem;
+            /* explicit grid */
+            grid-template-areas: 'a a a a a a' 'b b b b b b' 'c c c c c c' 'd d d d d d' 'e e e e e e';
+            grid-template-rows: repeat(5, 25%);
+            grid-template-columns: 240px auto auto 240px;}
+        }
+        @media (min-width:500px) and (max-width:800px){
+            .animated-grid {
+            height: 85vh;
+            display: grid;
+            gap: 1rem;
+            /* explicit grid */
+            grid-template-areas: 'a a a a a a' 'b b b b b b' 'c c c c c c' 'd d d d d d' 'e e e e e e';
+            grid-template-rows: repeat(5, 25%);
+            grid-template-columns: 240px auto auto 240px;
+        }
+        }
+        /* @media (min-width:800px){
+        
+        } */
 .about {
     width: 100%;
     height: 100vh;
