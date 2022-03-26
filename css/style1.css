@@ -318,7 +318,7 @@ subheader {
 
 .parallax {
     /* The image used */
-     background-image: linear-gradient(315deg, #5079f2c5 0%, #efe9f4c9 74%), url("../media/bgg.png");
+     background-image: linear-gradient(315deg, #5079f2c5 1%, #efe9f4c9 74%), url("../media/bgg.png");
     /* Set a specific height */
     min-height: 550px;
     /* Create the parallax scrolling effect */
